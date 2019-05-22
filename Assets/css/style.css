@@ -1,16 +1,118 @@
 body {
     background-color: #dddddd;
-    margin: 0 auto;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
-.card {
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      border-radius: 0;
+      margin-bottom: 50px;
+    }
     
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    /* .row.content { */
+        /* height: 450px;
+        background-color: white;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        /* padding: 40px; */
+    
+    /* } */
+    
+    
+
+    @media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
 }
 
 .container {
-    background-color: white;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
     border-style: solid;
     border-width: 0.25px;
     border-color: #cccccc;
-    
+    max-width: 75%;
+    padding: 20px;
+  }
 }
+    @media (min-width: 992px)
+    .col-lg-9 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+  
+
+
+  #about-text {
+    padding-left: 0;
+    margin-left: 0;
+
+    }
+    /* Set gray background color and 100% height */
+    /* .sidenav {
+      padding-top: 20px;
+      background-color: #dddddd;
+      height: 100%;
+    }
+     */
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    
+
+/* .card {
+    
+} */
+
+    
+/* footer { */
+    /* padding: 30px; */
+    /* background-color: #666666;
+    border-style: solid;
+    border-width: 7px 0px 0px 0px;
+    border-color: #4aaaa5;
+    bottom: 0;
+    position: absolute;
+/* }  
