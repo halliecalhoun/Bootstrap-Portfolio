@@ -10,9 +10,37 @@ body {
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       border-radius: 0;
-      margin-bottom: 50px;
+      margin-bottom: 60px;
+      position: relative;
+      padding-top: 0;
+      padding-left: 175px;
+      padding-bottom: 0;
+      border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 1.5px 0px;
+    height: 100%;
+    width: 100%;
+
+    }
+
+    .nav {
+      padding-right: 75px;
     }
     
+    .navbar-brand {
+      margin-top: -20;
+      margin-bottom: -20;
+      padding: 20px;
+      position: aboslute;
+      top: 0;
+      bottom: 0;
+    }
+    
+    footer {
+      border-style: solid;
+      border-top-color: #4aaaa5;
+      border-top-width: 5px;
+    }
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     /* .row.content { */
         /* height: 450px;
@@ -46,7 +74,6 @@ body {
 }
 
 .container {
-  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -89,6 +116,9 @@ body {
       background-color: #555;
       color: white;
       padding: 15px;
+      border-style: solid;
+      border-top-color: #4aaaa5;
+      border-top-width: 5px;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
